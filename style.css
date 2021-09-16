@@ -1,0 +1,28 @@
+.text {
+ text-align: center;
+ font-size: 33px;
+}
+#button {
+    border: solid;
+    text-align: right;
+    margin-left: 1230px;
+    padding: 12px;
+    margin-right: 10px;
+}
+table {
+    background-color: burlywood;
+    text-align: center;
+    border-collapse: collapse;
+}
+table th {
+    border: solid 1px;
+    padding : 15px 17px 19px 20px;
+}
+table td {
+    border: solid 1px;
+    padding: 17px 20px 22px 25px;
+}
+table td nth {
+    background-color: blanchedalmond;
+    text-align: center;
+}
