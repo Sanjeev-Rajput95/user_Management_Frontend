@@ -28,8 +28,9 @@
     </div>
     <!-- <div id="button">ADD USER</div> -->
     <!-- Button trigger modal -->
-    <button id="button" onclick="buttuon()" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">  add user
-    </button>
+    <!-- <button id="button" onclick="buttuon()" type="button" class="btn btn-primary" data-bs-toggle="modal" -->
+    <!-- data-bs-target="#staticBackdrop">
+    </button> -->
 
     <!-- Modal -->
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
@@ -41,46 +42,76 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <input id="fname" type="text" placeholder="first Name "> <br>
-                    <small id="fname_error" style="color: red;"> </small><br>
-                    <input id="lname" type="text" placeholder="last Name "><br> 
-                    <span id="lname_error" style="color: red;"> </span><br>
-                    <input id="email" type="text" placeholder="email"><br> 
-                    <small id="email_error" style="color: red;"> </small><br><br>
-                    <input id="address" type="text" placeholder="address"><br>
-                    <small id="address_error" style="color: red;"> </small><br> <br>
-                    <input id="pin" type="text" placeholder="pin"><br>
-                    <small id="pin_error" style="color: red;"> </small><br>
+                    <div style="color: red;">*</div>
+                    <input id="fname_" type="text" placeholder="first Name "> <br>
+                    <!-- <small id="fname_error" style="color: red;"> </small><br> -->
+                    <div style="color: red;">*</div>
+                    <input id="lname_" type="text" placeholder="last Name "><br>
+                    <!-- <span id="lname_error" style="color: red;"> </span><br> -->
+                    <div style="color: red;">*</div>
+                    <input id="email_" type="text" placeholder="email"><br>
+                    <!-- <small id="email_error" style="color: red;"> </small><br> -->
+                    <div style="color: red;">*</div>
+                    <input id="address_" type="text" placeholder="address"><br>
+                    <!-- <small id="address_error" style="color: red;"> </small><br> -->
+                    <div style="color: red;">*</div>
+                    <input id="pin_" type="text" placeholder="pin"><br>
+                    <!-- <small id="pin_error" style="color: red;"> </small><br> -->
 
 
                 </div>
                 <div class="modal-footer">
-                    <!-- <button type="button" class="btn btn-secondary" >Close</button> -->
-                    <button type="button" onclick="button()" class="btn btn-primary">submit</button>
+                    <button id="onSubmit" type="button" .039 *- onclick="button()"
+                        class="btn btn-primary">update</button>
                 </div>
             </div>
         </div>
     </div>
-    <table>
-        <tr>
-            <th>first name</th>
-            <th>last name</th>
-            <th>email Id</th>
-            <th>address</th>
-            <th>pin</th>
-            <th>edit user</th>
-            <th>delete user</th>
-        </tr>
-        <!-- <tr>
-            <td id="tab"></td>
-            <td id="tab"></td>
-            <td id="tab"></td>
-            <td id="tab"></td>
-            <td id="tab"></td>
-            <td id="tab"> <i class="fas fa-pencil-alt"></i></td>
-            <td id="tab"> <i class="fas fa-trash-alt"></i></td>
-        </tr> -->
-    </table>
+    <div style="display: flex;">
+        <div>
+            <div style="color: red;">*</div>
+            <input id="fname" type="text" placeholder="first Name "> <br>
+            <small id="fname_error" style="color: red;"> </small><br>
+            <div style="color: red;">*</div>
+            <input id="lname" type="text" placeholder="last Name "><br>
+            <span id="lname_error" style="color: red;"> </span><br>
+            <div style="color: red;">*</div>
+            <input id="email" type="text" placeholder="email"><br>
+            <small id="email_error" style="color: red;"> </small><br>
+            <div style="color: red;">*</div>
+            <input id="address" type="text" placeholder="address"><br>
+            <small id="address_error" style="color: red;"> </small><br>
+            <div style="color: red;">*</div>
+            <input id="pin" type="text" placeholder="pin"><br>
+            <small id="pin_error" style="color: red;"> </small><br>
+            <button id="onSubmit" type="button" onclick="button()" class="btn btn-primary">submit</button>
+        </div>
+        <div style="color: white;"> ramlal </div>
+        <div>
+            <table id="userTable">
+                <!-- <tr>
+                    <th> id </th>
+                    <th>first name</th>
+                    <th>last name</th>
+                    <th>email Id</th>
+                    <th>address</th>
+                    <th>pin</th>
+                    <th>edit user</th>
+                    <th>delete user</th>
+                </tr> -->
+                <!-- <tr>
+                    <td id="tab"></td>
+                    <td id="tab"></td>
+                    <td id="tab"></td>
+                    <td id="tab"></td>
+                    <td id="tab"></td>
+                    <td id="tab"> <i class="fas fa-pencil-alt"></i></td>
+                    <td id="tab"> <i class="fas fa-trash-alt"></i></td>
+                </tr> -->
+            </table>
+        </div>
+    </div>
+
     <script src="./app.js"></script>
 </body>
 
